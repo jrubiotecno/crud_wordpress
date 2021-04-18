@@ -1,0 +1,77 @@
+/* 
+	Reglas de css para codear
+	
+	1. Organizar en orden alfabetico los atributos
+	
+	2. En orden alfabetico los atributos internos
+		2.1 Primero estilo a las etiquetas
+		2.2 Luego estilos de id
+		2.3 Estilos de las clases
+		
+	3. Declarar tamaño de fuente global definido en el body
+	
+	4. H1
+		4.1 text-shadow 5px a la derecha
+						5px hacia abajo
+						10px difuminacion de sombra
+	
+	5. primer-parrafo	
+						border-radius: 0.5em; significa 8px segun la fuente globla 16px
+						padding: 1em; significa texto de 16px
+						
+	
+*/
+body{
+	background: #FFFFFF;
+	color:#000;
+	font-family: Helvetica,Arial;
+	font-size:16px;	
+}
+
+h1{
+	text-align: center;
+	text-shadow:5px 5px 10px rgba(0,0,0,0.5);
+}
+
+#primer-parrafo{
+	box-shadow:0 5px 10px rgba(0,0,0,0.5);
+	background: white;
+	border-radius: 0.5em;
+	color:black;
+	display: block;
+	margin: 1em auto;	
+	padding: 1em;
+	width: 70%;
+}
+#tablainfo{
+	border-top:1px solid #000000;
+	border-left:1px solid #000000;
+}
+
+#tablainfo th{
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+	background-color: #CAC8BA;
+	color: #000;
+}
+
+#tablainfo td{
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+}
+#tablainfo tr:hover{
+	background-color: #F8EEAD;
+}
+#tablainfo tr td input{
+	background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    width: 99%;
+}
+.one {
+	background-color: #F7F7F7;
+}
+
+.two {
+	background-color: #FFF;
+}
+

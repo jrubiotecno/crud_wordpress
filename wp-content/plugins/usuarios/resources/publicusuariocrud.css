@@ -1,0 +1,36 @@
+#tablainfo{
+	border-top:1px solid #000000;
+	border-left:1px solid #000000;
+}
+
+#tablainfo th{
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+	background-color: #A0C179;
+	color: #000;
+    font-family: Verdana;
+    font-weight: bold;
+    text-align: center;
+}
+
+#tablainfo td{
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+    text-align: center;	
+}
+#tablainfo tr:hover{
+	background-color: #7FBFD5;
+}
+#tablainfo tr td input{
+	background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    width: 99%;
+}
+.one {
+	background-color: #BCD29F;
+}
+
+.two {
+	background-color: #FFF;
+}
+
